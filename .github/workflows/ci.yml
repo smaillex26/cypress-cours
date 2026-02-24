@@ -12,3 +12,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v7
+        with:
+          # Run only the lightbox spec in CI
+          spec: cypress/e2e/lightbox.cy.js

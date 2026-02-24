@@ -2,7 +2,7 @@
 
 context ('first scenario',() => {
     beforeEach(() => {
-        cy.visit('../../src/index.html')
+        cy.visit('../../src/Caesar/index.html')
     })
 
     it('encrypts text correctly', () => {
